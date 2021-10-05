@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    background-size: cover;
+}
+
+img {
+    margin: auto;
+}
+
+.content {
+    background: white;
+    width: 40%;
+    padding: 60px;
+    margin: 100px auto;
+    font-family: comic sans ms;
+    border-radius: 20px;
+}
+
+.bio {
+    margin: auto;
+    font-size: 200%;
+}
