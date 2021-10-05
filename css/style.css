@@ -1,0 +1,311 @@
+/* body */
+body {
+    background: rgb(38, 38, 39);
+    background-size: cover;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.container {
+    background: rgb(29, 29, 29);
+    width: 850px;
+    padding: 40px;
+    margin:  auto;
+    font-family: comic sans ms;
+    border-left: solid;
+    border-right: solid;
+    border-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar Home */
+.nav-home {
+    background: #2b1c1c;
+    height: 100px;
+    width: 100%;
+}
+
+label.logo-home {
+    color: white;
+    font-size: 36px;
+    line-height: 100px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.logo-home .link-home {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-home ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav-home ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.nav-home ul li a {
+    color:white;
+    font-size: 13px;
+    padding: 15px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-menu.nav-menu:hover {
+    background: #332929;
+    transition: .5s;
+}
+
+.word {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Quotes */
+.word {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* Bio Data */
+.bio-data {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.pas-foto {
+    margin: auto;
+    border-radius: 10px;
+}
+
+.isi {
+    background: rgb(199, 199, 199);
+    width: 40%;
+    padding: 60px;
+    margin: 100px auto;
+    font-family: comic sans ms;
+    border-radius: 20px;
+}
+
+.bio {
+    margin: auto;
+    font-size: 200%;
+}
+
+.bio-home {
+    text-align: center;
+}
+
+a.tbl-home-bio {
+    background: #0082e6;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 8px 14px 8px 14px;
+    color: azure;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a.tbl-home-bio:hover {
+    background: #1b9bff;
+    text-decoration: none;
+}
+
+
+/* Daftar Novel */
+.daftar {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.desc {
+    font-family: comic sans ms;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.img-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.novel-card {
+    width: 29%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.novel-card img {
+    width: 80%;
+}
+
+.img-list .novel-card .link-novel {
+    text-decoration: none;
+}
+
+.img-list .novel-card .link-novel:hover {
+    border: 0px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, rgb(146, 1, 1), rgb(29, 29, 29));
+    border-image-slice: 1;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.novel-card p {
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+/*Bottom Page */
+#contact {
+    background: linear-gradient(to right,#2b1c1c, rgb(29, 29, 29) );
+    padding: 50px 0px 50px 100px;
+    
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    font-family: comic sans ms;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-family: comic sans ms ;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    line-height: 50px;
+}
+
+
+/* Halaman Novel */
+.judul-novel {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.genre {
+    text-align: center;
+    font-size: 23px;
+}
+
+.sinopsis {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.vol {
+    font-size: 22px;
+    font-family: Georgia;
+    font-weight: 500;
+}
+
+.vol-sampul {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+}
+
+
+/* List Chapter */
+.vol .list-chapter .chapter {
+    color: rgb(102, 136, 247);
+}
+
+.vol .list-chapter .chapter:link {
+    text-decoration: none;
+    
+}
+.vol .list-chapter .chapter:hover {
+    color: #56d6fd;
+}
+
+/* List Chapter Yang Belom */
+.vol .list-chapter .blm {
+    text-decoration: line-through;
+}
+
+
+/* Next-previous tercoret */
+.blm-1 {
+    font-weight: bold;
+    text-decoration: line-through 3px;
+}
+
+
+/* Text Chapter Novel */
+.judul-text-novel {
+    font-size: 20px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.teks-novel {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.teks-novel-2 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.teks-novel-2 br {
+    display: none;
+}
+
+.next-previous {
+    text-align: center;
+    font-size:20px;
+}
+
+.button-next-previous {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button-next-previous:hover {
+    color: #56d6fd;
+}
