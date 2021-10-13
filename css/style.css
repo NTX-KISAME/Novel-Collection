@@ -467,6 +467,14 @@ h3 {
         line-height: 35px;
     }
 
+    .ilustrasi {
+        width: 75%;
+    }
+
+    .ilustrasi-warna {
+        width: 100%;
+    }
+
     .teks-novel-2 {
         font-size: 19px;
         line-height: 35px;
