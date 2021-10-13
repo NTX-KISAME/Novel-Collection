@@ -1,14 +1,4 @@
 /* body */
-body {
-    background: rgb(38, 38, 39);
-    background-size: cover;
-    user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    -khtml-user-select:none;
-    -webkit-user-select:none
-}
-
 .container {
     background: rgb(29, 29, 29);
     width: 850px;
@@ -23,12 +13,21 @@ body {
 
 html {
     scroll-behavior: smooth;
+    background : url("../assets/Background.png");
+    background-size: cover 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    user-select: none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
 }
 
 
 /* Navbar Home */
 .nav-home {
-    background: #2b1c1c;
+    background: #09023f;
     height: 100px;
     width: 100%;
 }
@@ -67,7 +66,7 @@ label.logo-home {
 }
 
 .nav-menu.nav-menu:hover {
-    background: #332929;
+    background: #150b64;
     transition: .5s;
 }
 
@@ -76,6 +75,9 @@ label.logo-home {
     font-size: 30px;
 }
 
+.jenis {
+    font-size: 30px;
+}
 
 /* Quotes */
 .word {
@@ -168,7 +170,7 @@ a.tbl-home-bio:hover {
 .img-list .novel-card .link-novel:hover {
     border: 0px;
     border-bottom: 4px solid;
-    border-image: linear-gradient(to right, rgb(146, 1, 1), rgb(29, 29, 29));
+    border-image: linear-gradient(to right, #1900d3, rgb(29, 29, 29));
     border-image-slice: 1;
     color: white;
     margin: auto;
@@ -184,10 +186,14 @@ a.tbl-home-bio:hover {
     color: rgb(255, 255, 255);
 }
 
+.novel-card {
+    filter: brightness(103%);
+}
+
 
 /*Bottom Page */
 #contact {
-    background: linear-gradient(to right,#2b1c1c, rgb(29, 29, 29) );
+    background: linear-gradient(to right,#09023f, rgb(29, 29, 29) );
     padding: 50px 0px 50px 100px;
     
 }
@@ -282,7 +288,7 @@ h3 {
 }
 
 .teks-novel {
-    font-size: 24px;
+    font-size: 150%;
     line-height: 40px;
 }
 
@@ -309,3 +315,167 @@ h3 {
 .button-next-previous:hover {
     color: #56d6fd;
 }
+
+
+/* Responsive */
+@media (max-width : 1000px){
+    
+    .container {
+        background: rgb(29, 29, 29);
+        width: 80%;
+        padding: px;
+        margin:  auto;
+        border: none;
+        font-family: comic sans ms;
+        color: white;
+    }
+
+    html {
+        background: rgb(29, 29, 29);
+    }
+    
+
+    .nav-home {
+        background: #09023f;
+        height: 100%;
+        width: 100%;
+    }
+
+    label.logo-home {
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+        padding: 0 50px;
+        font-weight: bold;
+    }
+    
+    .nav-home ul li a {
+        color:white;
+        font-size: 4%;
+        padding: 10px 3px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .word {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 12px;
+    }
+    
+    .daftar {
+        text-align: center;
+        width: 100%;
+        color: white;
+    }
+
+    .desc {
+        font-family: comic sans ms;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .novel-card {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .jenis {
+        font-size: 20px;
+    }
+
+    .novel-card img {
+        width: 60%;
+    }
+
+    .novel-card p {
+        font-family: comic sans ms;
+        font-weight: 800;
+        font-size: 15px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    /*Bottom Page*/
+    #contact {
+        background: linear-gradient(to right,#09023f, rgb(29, 29, 29) );
+        padding: 5px 0px 10px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .footer-section {
+        width: 60%;
+        margin: 0 auto;
+        font-family: comic sans ms;
+        color: rgb(255, 255, 255);
+    }
+
+    /* Halaman Novel */
+    .judul-novel {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .judul-novel img {
+        width: 65%;
+    }
+
+    .genre {
+        font-size: 17px;
+    }
+
+    .sinopsis {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .vol {
+        font-size: 20px;
+        font-family: Georgia;
+        font-weight: 500;
+    }
+
+    .vol-sampul {
+        align-items: center;
+        position: relative;
+        width: 200px;
+        margin-bottom: 17px;
+    }
+
+    .judul-text-novel {
+        font-size: 10px;
+        line-height: 40px;
+        margin-top: 60px;
+    }
+
+    .judul-text-novel img {
+        width: 220px;
+    }
+
+    .teks-novel {
+        font-size: 19px;
+        line-height: 35px;
+    }
+
+    .teks-novel-2 {
+        font-size: 19px;
+        line-height: 35px;
+    }
+    
+    .next-previous {
+        text-align: center;
+        font-size:11px;
+        font-weight: bold;
+    }
+}
+
